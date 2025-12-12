@@ -1,0 +1,292 @@
+{
+  "common": {
+    "appName": "Participation Game",
+    "tagline": "Transparency • Justice • Participation",
+    "connectWallet": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "noData": "No data available",
+    "viewAll": "View All",
+    "learnMore": "Learn More"
+  },
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "winners": "Winners",
+    "faq": "FAQ",
+    "dashboard": "Dashboard",
+    "admin": "Admin Panel"
+  },
+  "home": {
+    "liveGame": "Live Game",
+    "title": "Participation Game",
+    "subtitle": "Are You the Next Winner?",
+    "description": "Buy shares, participate in elimination and voting rounds, and win 85% of the prize pool!",
+    "round": "Round",
+    "prizePool": "Prize Pool",
+    "participants": "Participants",
+    "gameStatus": "Game Status",
+    "filled": "Filled",
+    "collected": "Collected",
+    "buyNow": "Buy Shares",
+    "voteNow": "Vote Now",
+    "viewGame": "View Game",
+    "shares": "Shares",
+    "viewContract": "View Contract",
+    "totalPrizeAllGames": "Total Prizes",
+    "currentPrize": "Current Prize",
+    "activeParticipants": "Active Participants",
+    "winnerPrize": "Winner Share",
+    "votingRound": "Voting Round",
+    "players": "Players",
+    "howItWorks": "How It Works",
+    "learnMore": "Learn More",
+    "step1Title": "Buy Shares",
+    "step1Desc": "Purchase shares with LUSD to enter the game",
+    "step2Title": "Quick Elimination",
+    "step2Desc": "Random elimination to 8 players via Chainlink VRF",
+    "step3Title": "Voting Rounds",
+    "step3Desc": "Vote in 8→4→2 rounds",
+    "step4Title": "Win Big",
+    "step4Desc": "Take home 85% of the prize pool!",
+    "status": {
+      "Buying": "Buying Shares",
+      "CapReached": "Cap Reached",
+      "VRF_Request": "Processing",
+      "Eliminating": "Eliminating",
+      "Voting8": "Voting (8)",
+      "Voting4": "Voting (4)",
+      "Voting2": "Voting (2)",
+      "Finished": "Finished"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "A step-by-step guide to participating in the Participation Game",
+    "step1": {
+      "title": "Buy Shares",
+      "description": "Purchase shares with LUSD token to enter the game",
+      "detail1": "Purchase shares using LUSD token",
+      "detail2": "Each share costs 1 LUSD",
+      "detail3": "No limit on number of shares per user",
+      "detail4": "Shares are recorded on-chain"
+    },
+    "step2": {
+      "title": "Quick Elimination",
+      "description": "Random elimination reduces participants to 8",
+      "detail1": "Triggered when token cap is reached",
+      "detail2": "Chainlink VRF provides random seed",
+      "detail3": "Fair selection of 8 participants",
+      "detail4": "Completely transparent and verifiable"
+    },
+    "step3": {
+      "title": "Voting Rounds",
+      "description": "8→4→2 voting stages with community decisions",
+      "detail1": "8 → 4 → 2 participant rounds",
+      "detail2": "24-hour voting period each round",
+      "detail3": "Vote to continue or stop the game",
+      "detail4": "Majority decides the outcome"
+    },
+    "step4": {
+      "title": "Winner Selection",
+      "description": "Final winner receives 85% of the prize pool",
+      "detail1": "Final winner receives 85% of prize pool",
+      "detail2": "Consolation prizes for runners-up (5%)",
+      "detail3": "Automatic prize distribution",
+      "detail4": "Withdraw to any address"
+    },
+    "featuresTitle": "Key Features",
+    "features": {
+      "decentralized": {
+        "title": "Fully Decentralized",
+        "description": "No central authority controls the game. Smart contract handles everything."
+      },
+      "vrf": {
+        "title": "Chainlink VRF",
+        "description": "Verifiable Random Function ensures provably fair random selection."
+      },
+      "voting": {
+        "title": "24-Hour Voting",
+        "description": "Each voting round lasts 24 hours, giving everyone time to participate."
+      },
+      "transparent": {
+        "title": "On-Chain Transparency",
+        "description": "All transactions and results are recorded on the blockchain."
+      }
+    },
+    "prizeDistribution": "Prize Distribution",
+    "platformFee": "Platform Fee",
+    "prizePool": "Prize Pool",
+    "finalWinner": "Final Winner",
+    "consolation": "Consolation",
+    "startPlaying": "Start Playing Now"
+  },
+  "game": {
+    "stats": {
+      "title": "Game Statistics",
+      "progress": "Sale Progress",
+      "sharesSold": "Shares Sold",
+      "activeParticipants": "Active Participants",
+      "totalParticipants": "Total Participants",
+      "prizePool": "Prize Pool",
+      "sold": "Sold",
+      "remaining": "Remaining"
+    },
+    "buy": {
+      "title": "Buy Shares",
+      "amount": "Number of Shares",
+      "totalCost": "Total Cost",
+      "buyButton": "Buy {amount} Shares",
+      "approveFirst": "Approve LUSD",
+      "insufficientBalance": "Insufficient Balance",
+      "quickSelect": "Quick Select",
+      "wrongNetwork": "Please switch to Arbitrum Sepolia network",
+      "switchNetwork": "Switch Network",
+      "connectWallet": "Connect Wallet",
+      "waitingApproval": "Waiting for approval...",
+      "processing": "Processing...",
+      "approved": "Approved! You can now buy shares",
+      "purchaseSuccess": "Purchase successful! Your shares are recorded"
+    },
+    "voting": {
+      "title": "Voting Panel",
+      "stageVotes": "Stage Votes",
+      "stage": "Participants",
+      "stage8": "8 Participants",
+      "stage4": "4 Participants",
+      "stage2": "2 Participants",
+      "results": "Voting Results",
+      "continueVotes": "Continue",
+      "stopVotes": "Stop",
+      "continue": "Continue",
+      "stop": "Stop",
+      "castVote": "Cast Your Vote",
+      "voteContinue": "Continue Game",
+      "voteStop": "Stop Game",
+      "timeRemaining": "Time Remaining",
+      "votingEnded": "Voting Ended",
+      "alreadyVoted": "You have already voted",
+      "notParticipant": "You are not a participant"
+    },
+    "progress": {
+      "title": "Game Progress",
+      "selling": "Selling",
+      "sellingDesc": "Buy shares",
+      "elimination": "Elimination",
+      "eliminationDesc": "8 participants",
+      "voting8": "Voting 8",
+      "voting8Desc": "8 people",
+      "voting4": "Voting 4",
+      "voting4Desc": "4 people",
+      "winner": "Winner",
+      "winnerDesc": "Final",
+      "status": {
+        "Buying": "Selling",
+        "CapReached": "Cap Reached",
+        "VRF_Request": "Processing",
+        "Eliminating": "Eliminating",
+        "Voting8": "Voting (8)",
+        "Voting4": "Voting (4)",
+        "Voting2": "Voting (2)",
+        "Finished": "Finished"
+      }
+    }
+  },
+  "winners": {
+    "title": "Round Winner",
+    "round": "Round",
+    "date": "Date",
+    "prize": "Prize",
+    "winner": "Winner",
+    "finalWinner": "Final Winner",
+    "noWinners": "No winners yet",
+    "gameInProgress": "Game is in progress"
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "myGames": "My Games",
+    "myShares": "My Shares",
+    "myVotes": "My Votes",
+    "totalSpent": "Total Spent",
+    "totalWon": "Total Won",
+    "activeGames": "Active Games",
+    "history": "History",
+    "noParticipation": "You haven't participated in any games yet",
+    "connectToAccess": "Connect your wallet to access the dashboard",
+    "balance": "LUSD Balance",
+    "status": "Status",
+    "participating": "Participating",
+    "notParticipating": "Not Participating",
+    "gamePhase": "Game Phase"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "overview": "Overview",
+    "contractControl": "Contract Control",
+    "users": "Users",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "actions": {
+      "requestVRF": "Request VRF",
+      "processVoting": "Process Voting",
+      "distributePrizes": "Distribute Prizes",
+      "pause": "Pause Game",
+      "unpause": "Unpause Game",
+      "setOperator": "Set Operator"
+    },
+    "stats": {
+      "totalUsers": "Total Users",
+      "totalGames": "Total Games",
+      "totalVolume": "Total Volume",
+      "platformFees": "Platform Fees"
+    },
+    "network": {
+      "title": "Network Settings",
+      "current": "Current Network",
+      "switchToMainnet": "Switch to Mainnet",
+      "switchToTestnet": "Switch to Testnet",
+      "warning": "Warning: Switching networks will affect all operations"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to commonly asked questions about Participation Game",
+    "q1": "What is Participation Game?",
+    "a1": "Participation Game is a decentralized lottery platform built on Arbitrum. It uses smart contracts and Chainlink VRF to ensure fair and transparent random selection of winners.",
+    "q2": "How do I participate?",
+    "a2": "Connect your wallet, ensure you have LUSD tokens, and purchase shares in the current game. Each share costs 1 LUSD. The more shares you buy, the higher your chances of being selected.",
+    "q3": "How are winners selected?",
+    "a3": "When the token cap is reached, Chainlink VRF is used to randomly select 8 participants. These 8 then go through voting rounds (8→4→2) until a final winner is determined.",
+    "q4": "What are the voting rounds?",
+    "a4": "After elimination, the remaining 8 participants vote on whether to continue or stop the game. Each round lasts 24 hours. If majority votes to continue, half are eliminated randomly.",
+    "q5": "How is the prize distributed?",
+    "a5": "90% of total revenue goes to the prize pool. Of this, 85% goes to the final winner and 5% is distributed as consolation prizes to runners-up. 10% is the platform fee.",
+    "q6": "Is it safe?",
+    "a6": "Yes! The smart contract is built with security best practices including OpenZeppelin contracts, reentrancy guards, and pausable functionality. All transactions are on-chain and verifiable.",
+    "q7": "What network does it run on?",
+    "a7": "Participation Game runs on Arbitrum, an Ethereum Layer 2 solution. This provides fast transactions and low gas fees while maintaining Ethereum security.",
+    "q8": "How long does a game last?",
+    "a8": "Game duration depends on how quickly the token cap is reached. The target is 7 days. If it takes longer, the cap is reduced for the next game. If faster, the cap is increased.",
+    "stillHaveQuestions": "Still have questions?",
+    "joinCommunity": "Join our community on GitHub for more help"
+  },
+  "errors": {
+    "walletNotConnected": "Please connect your wallet",
+    "wrongNetwork": "Please switch to Arbitrum network",
+    "transactionFailed": "Transaction failed",
+    "insufficientFunds": "Insufficient funds",
+    "gameNotActive": "Game is not active",
+    "alreadyVoted": "You have already voted",
+    "notParticipant": "You are not a participant"
+  }
+}
